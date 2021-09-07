@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./public/style.css">
-</head>
-<body>
-    <div class="quiz-container">
-    <div id="quiz"></div>
-    </div>
-    <button id="previous">Previoues Question</button>
-    <button id="next">next Question</button>
-    <button id="submit">submit the quiz</button>
-    <div id="results"></div>
-    
-<!--<script src="./index.js"></script> -->
-<script>
+
 (function(){
     // Functions
     function buildQuiz(){
@@ -172,7 +153,5 @@
     submitButton.addEventListener('click', showResults);
     previousButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);
-  })(); 
-  </script>
-</body>
-</html>
+  })();
+  
